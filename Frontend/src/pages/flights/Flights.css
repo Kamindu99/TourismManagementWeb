@@ -1,0 +1,22 @@
+.flightscasual {
+    margin-inline-start: 10%;
+    margin-inline-end: 7%;
+}
+
+.flightscasual .carousel-control-next-icon {
+    background-color: #666565;
+    margin-right: -110px;
+    height: 100%;
+}
+
+.flightscasual .carousel-control-prev-icon {
+    margin-left: -110px;
+    background-color: #666565;
+    height: 100%;
+}
+
+.flightscasual .carousel-indicators {
+    margin-bottom: 0px;
+    width:'20px'
+}
+

@@ -1,0 +1,17 @@
+.abv{
+    cursor: pointer;
+  }
+  
+  .abv:hover .carousel-caption{
+    position: absolute;
+    bottom: 100px;
+    transition: 0.1s ,bottom 0.1s 0.1s;
+  }
+
+  .abv a {
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;
+  }
+  

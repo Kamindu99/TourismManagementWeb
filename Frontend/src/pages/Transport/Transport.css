@@ -1,0 +1,26 @@
+.transcard {
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 15px;
+    height: 270px;
+    width: 300px;
+}
+
+.transcard a {
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;
+}
+
+.transcard img {
+    border-radius: 10px;
+    height: 270px;
+    width: 300px;
+    object-fit: cover;
+}
+.transcard:hover {
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
