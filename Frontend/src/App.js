@@ -1,3 +1,4 @@
+import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import VehicleList from "./pages/VehicleList/VehicleList";
 import VehicleHome from "./pages/VehicleHome/VehicleHome";
@@ -33,10 +34,14 @@ import FlightsHome from "./pages/flights/FlightsHome";
 import TransportHome from "./pages/Transport/TransportHome";
 import EducatinalEvents from "./pages/events/EducationalEvents";
 import ResturentsHome from "./pages/Resturents/ResturentsHome";
+import Header from "./components/HomeHeader/Header";
+import Qr from './pages/events/QR';
 
 const App = () => {
   return (
     <BrowserRouter>
+    <Header/>
+    <Qr/>
       <Routes>
         //travel
         <Route path="/" element={<VehicleHome />} />
