@@ -35,13 +35,11 @@ import TransportHome from "./pages/Transport/TransportHome";
 import EducatinalEvents from "./pages/events/EducationalEvents";
 import ResturentsHome from "./pages/Resturents/ResturentsHome";
 import Header from "./components/HomeHeader/Header";
-import Qr from './pages/events/QR';
 
 const App = () => {
   return (
     <BrowserRouter>
     <Header/>
-    <Qr/>
       <Routes>
         //travel
         <Route path="/" element={<VehicleHome />} />
