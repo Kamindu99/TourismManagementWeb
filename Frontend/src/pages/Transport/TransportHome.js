@@ -34,24 +34,25 @@ function TransportHome() {
             <Header /> */}
 
             <>
-            <Card className="hometracard" style={{marginBottom:'30px', color: 'white', paddingBottom: '30px', paddingTop: '30px', width: '100%', border: "none" }}>
-                    <Card.Body style={{ marginInlineStart: '9%', marginInlineEnd: '9%' }}>
-                        <Card.Title style={{ fontSize: '28px', fontFamily: 'inherit', fontWeight: '800' }}>TRAVELWISE EVENTS IN WORLD</Card.Title>
-                        <Card.Text>
-                            Music, Dance And Live Events In Colombo
-                        </Card.Text>
-                        <Card.Text style={{ fontSize: '13px' }}>
-                            Make your life happening by enrolling to entertainment events in Colombo. Find a partner through a
-                            salsa night or take your partner to live in concerts by upcoming bands in your town. Get high while
-                            playing Beer Pong in a pub crawl or attending stand-up comedy events in Colombo. Shake your legs in the
-                            happy streets, zumba or dance workshops or go for a film screening in the nearby cafes or theaters.
-                        </Card.Text>
-                        <Card.Text style={{ fontSize: '13px' }}>
-                            Explore Entertainment Events in Colombo.
-                        </Card.Text>
-                        <Button variant="warning"><i className="far fa-check-square me-2"></i> Subscribe to Event Updates</Button>
-                    </Card.Body>
-                </Card>
+                <br />
+                <div className="appointment mb-4">
+                    <div className="container">
+                        <div className="row " >
+                            <div className="col-md-5 d-none d-md-block">
+                                <img src='https://images.squarespace-cdn.com/content/v1/62472cd31e38b66af2c6d164/df6b4f3f-7632-4d34-9df9-3b5a47a6dcde/Rentcarbros_drive+off.png' style={{ marginTop: '0%', width: '110%', height: '100%' }} alt="" />
+                            </div>
+                            <div className="col-md-7 text-white py-5">
+                                <h1 className="">Rent a Car from Travelme Today </h1>
+                                <p> Rent a car is a leading online travel company that provides information about latest offers on flights, hotels, car rentals and holiday packages.
+                                    We are a one-stop destination for all your travel needs. We offer the best deals on
+                                    flight bookings, hotel bookings, bus tickets, irctc train tickets, holiday packages,
+                                    activities and inter-city and point-to-point cabs. Find cheap domestic flights to destinations in India or book cheap international flights within minutes.
+                                </p>
+                                <button className="btn btn-primary">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="row text-center text-lg-start" style={{ marginInlineStart: '10%', marginInlineEnd: '10%' }}>
                     {transports.map((transport, idx) => (
                         <div class="col-lg-3 col-md-4 col-6 transcard">
@@ -86,8 +87,8 @@ function TransportHome() {
 
                 <div className="card mt-5" style={{ height: '280px', marginInlineStart: '10%', marginInlineEnd: '12%', border: 'none' }}>
                     <div className="row no-gutters">
-                    <div className="col-md-6">
-                            <img style={{ height: '280px',objectFit: "cover" }} className="card-img" src="https://www.booking-in-italy.com/wp-content/uploads/2019/12/Jeep-Wrangler.jpg" alt="Card image cap" />
+                        <div className="col-md-6">
+                            <img style={{ height: '280px', objectFit: "cover" }} className="card-img" src="https://www.booking-in-italy.com/wp-content/uploads/2019/12/Jeep-Wrangler.jpg" alt="Card image cap" />
                         </div>
                         <div className="col-md-6">
                             <div className="card-body">
@@ -110,15 +111,15 @@ function TransportHome() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img style={{ height: '280px',objectFit: "cover" }} className="card-img" src="https://motofomo.com/wp-content/uploads/2022/10/Suzuki-DL1050-V-Strom-1050-DE-large-RHS-static-1024x705.jpg" alt="Card image cap" />
+                            <img style={{ height: '280px', objectFit: "cover" }} className="card-img" src="https://motofomo.com/wp-content/uploads/2022/10/Suzuki-DL1050-V-Strom-1050-DE-large-RHS-static-1024x705.jpg" alt="Card image cap" />
                         </div>
                     </div>
                 </div>
 
                 <div className="card mt-5" style={{ height: '280px', marginInlineStart: '10%', marginInlineEnd: '12%', border: 'none' }}>
                     <div className="row no-gutters">
-                    <div className="col-md-6">
-                            <img style={{ height: '280px',objectFit: "cover" }} className="card-img" src="https://static2.tripoto.com/media/filter/tst/img/1233769/TripDocument/1543425981_17854732_10209940081157038_4242792204856277788_o_1.jpg" alt="Card image cap" />
+                        <div className="col-md-6">
+                            <img style={{ height: '280px', objectFit: "cover" }} className="card-img" src="https://static2.tripoto.com/media/filter/tst/img/1233769/TripDocument/1543425981_17854732_10209940081157038_4242792204856277788_o_1.jpg" alt="Card image cap" />
                         </div>
                         <div className="col-md-6">
                             <div className="card-body">

@@ -15,6 +15,14 @@ const Navbar = () => {
             }
         })
     }, [])
+
+    let isHome = window.location.href.slice(21, ) === "/" ? true : false;
+    let isHotel = window.location.href.slice(21, ) === "/hotel-home" ? true : false;
+    let isEvent = window.location.href.slice(21, ) === "/eventhome" ? true : false;
+    let isFlights = window.location.href.slice(21, ) === "/flights" ? true : false;
+    let isTransport = window.location.href.slice(21, ) === "/transport" ? true : false;
+    let isResturent = window.location.href.slice(21, ) === "/resturents" ? true : false;
+
     return (
         <nav className={`navbar navbar-expand-lg navbar-light ${isSticky ? "stickynav" : "normalnav"}`} expand="lg">
 
@@ -31,28 +39,28 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto">
                         <li className="nav-item">
-                            <a className="nav-link active me-3" aria-current="page" href="/">HOME</a>
+                            <a className={`nav-link me-3 ${isHome?'active':''}`} aria-current="page" href="/">HOME</a>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link me-3" href="/hotel-home">HOTELS</a>
+                            <a className={`nav-link me-3 ${isHotel?'active':''}`} href="/hotel-home">HOTELS</a>
                         </li>
 
                         <li className="nav-item">
-                            <a href='/eventhome' className="nav-link me-3">EVENTS</a>
-                            {/* <NavLink activeClassName="ContactPage" className="nav-link me-3" to="#ContactPage">CONTACT</NavLink> */}
+                            <a href='/eventhome' className={`nav-link me-3 ${isEvent?'active':''}`}>EVENTS</a>
+                            {/* <NavLink activeClassName="ContactPage" className={`nav-link me-3 ${isHome?'active':''}`} to="#ContactPage">CONTACT</NavLink> */}
                         </li>
 
                         <li className="nav-item">
                             {/* <a className={`nav-link me-3 text-white ${isSticky ? "textDark" : "textWhite"}`} href="#BlogContaint">BLOG</a> */}
-                            <a className="nav-link me-3 textDark" href="/resturents">RESTURENTS</a>
+                            <a className={`nav-link me-3 ${isResturent?'active':''}`} href="/resturents">RESTURENTS</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link me-3 textDark" href="/flights" >FLIGHTS</a>
+                            <a className={`nav-link me-3 ${isFlights?'active':''}`} href="/flights" >FLIGHTS</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link me-3 textDark" href="/transport">RENT VEHICLE</a>
+                            <a className={`nav-link me-3 ${isTransport?'active':''}`} href="/transport">RENT VEHICLE</a>
                         </li>
 
                      

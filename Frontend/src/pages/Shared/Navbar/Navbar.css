@@ -25,3 +25,8 @@
 .textWhite{
     color: white !important;
 }
+
+.nav-link.active {
+font-weight: 600;
+font-size: large;
+  }

@@ -71,6 +71,7 @@ function ResturentsHome() {
             {/* <Navbar />
             <Header /> */}
             <>
+            <br/>
             
                 <Card style={{ border: '0', borderRadius: '0', marginInlineStart: '9%', marginInlineEnd: '9%',marginTop:'3%' }}>
                     <Card.Img variant="top" style={{ height: '200px', objectFit: 'cover' }} src="https://architecture.live/wp-content/uploads/2016/12/7b44e3ca686bae1f4f2cb1f9a5ee246b.jpg" />
