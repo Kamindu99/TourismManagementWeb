@@ -1,6 +1,6 @@
 # Tourism Management Web Application
 
-### [Live Site](https://dulcet-torte-e25132.netlify.app/)
+### [Live Site](https://travelwithkaminu.netlify.app/)
 
 ![Voice Controlled React News Application](https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg)
 
