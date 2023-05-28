@@ -41,11 +41,31 @@ function FlightsHome() {
     ])
     return (
         <div>
-            <Navbar />
-            <Header />
+            {/* <Navbar />
+            <Header /> */}
 
 
             <>
+            <Card className="hometracard" style={{marginBottom:'30px', color: 'white', paddingBottom: '30px', paddingTop: '30px', width: '100%', border: "none" }}>
+                    <Card.Body style={{ marginInlineStart: '9%', marginInlineEnd: '9%' }}>
+                        <Card.Title style={{ fontSize: '28px', fontFamily: 'inherit', fontWeight: '800' }}>TRAVELWISE EVENTS IN WORLD</Card.Title>
+                        <Card.Text>
+                            Music, Dance And Live Events In Colombo
+                        </Card.Text>
+                        <Card.Text style={{ fontSize: '13px' }}>
+                            Make your life happening by enrolling to entertainment events in Colombo. Find a partner through a
+                            salsa night or take your partner to live in concerts by upcoming bands in your town. Get high while
+                            playing Beer Pong in a pub crawl or attending stand-up comedy events in Colombo. Shake your legs in the
+                            happy streets, zumba or dance workshops or go for a film screening in the nearby cafes or theaters.
+                        </Card.Text>
+                        <Card.Text style={{ fontSize: '13px' }}>
+                            Explore Entertainment Events in Colombo.
+                        </Card.Text>
+                        <Button variant="warning"><i className="far fa-check-square me-2"></i> Subscribe to Event Updates</Button>
+                    </Card.Body>
+                </Card>
+
+
                 <Row xs={1} md={2} className="g-4" style={{ marginInlineStart: '5%', marginInlineEnd: '5%', marginBottom: '50px' }}>
                     <Col>
                         <Carousel className='flightscasual' indicators={true}>

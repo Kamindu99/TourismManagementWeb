@@ -34,15 +34,18 @@ import FlightsHome from "./pages/flights/FlightsHome";
 import TransportHome from "./pages/Transport/TransportHome";
 import EducatinalEvents from "./pages/events/EducationalEvents";
 import ResturentsHome from "./pages/Resturents/ResturentsHome";
-import Header from "./components/HomeHeader/Header";
+import MainHome from './pages/Shared/Header/Header';
+import Navbar from './pages/Shared/Navbar/Navbar';
 
 const App = () => {
   return (
     <BrowserRouter>
-    <Header/>
+    <Navbar/>
       <Routes>
+        <Route path="/" element={<MainHome />} />
+
         //travel
-        <Route path="/" element={<VehicleHome />} />
+        <Route path="/vehicle" element={<VehicleHome />} />
         <Route path="/vehicleList" element={<VehicleList />} />
         <Route path="/vehicle/:id" element={<Vehicle />} />
         <Route path="/addVehicle" element={<AddVehicle />} />
@@ -65,7 +68,7 @@ const App = () => {
         <Route exact path="/eventadd" element={<AddEvent />} />
         <Route exact path="/eventedit/:id" element={<EditEvents />} />
         <Route exact path="/admin-event" element={<AllEvent />} />
-        
+
 
         //hotels
         <Route path="/hotel-home" element={<Hotelhome />} />

@@ -1,0 +1,17 @@
+header{
+    /* background-image: url('https://media.istockphoto.com/id/1148918504/photo/positive-businesswoman-in-her-office-working-on-the-laptop.jpg?s=170667a&w=0&k=20&c=Fhl7ZPFxRw_IdPA_VbyUHYt5D9zNxXhO7HWFEdBjQI4='); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width:100%;
+}
+header::after{
+    content: '';
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: #3A4256;
+    width:30%;
+    z-index: -50;
+    height: 700px;
+}

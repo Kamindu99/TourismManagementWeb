@@ -91,11 +91,11 @@ export default function HomepageCard() {
 
     return (
         <div>
-            <Navbar />
-            <Header />
+            {/* <Navbar /> */}
+            {/* <Header /> */}
             <div >
 
-                <Card className="hometracard" style={{ color: 'white', marginTop: '-23%', paddingBottom: '30px', paddingTop: '30px', width: '100%', border: "none" }}>
+                <Card className="hometracard" style={{ color: 'white', paddingBottom: '30px', paddingTop: '30px', width: '100%', border: "none" }}>
                     <Card.Body style={{ marginInlineStart: '9%', marginInlineEnd: '9%' }}>
                         <Card.Title style={{ fontSize: '28px', fontFamily: 'inherit', fontWeight: '800' }}>TRAVELWISE EVENTS IN WORLD</Card.Title>
                         <Card.Text>
