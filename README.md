@@ -2,7 +2,7 @@
 
 <!-- ### [Live Site](https://alan-news-app.netlify.app/) -->
 
-![Voice Controlled React News Application](https://res.cloudinary.com/dmfljlyu1/image/upload/v1685259713/TravelMe.net_ghm5l7.png)
+![Voice Controlled React News Application](https://res.cloudinary.com/dmfljlyu1/image/upload/v1685259995/Travelme.net_l8jnby.jpg)
 
 ## Introduction
 Sri Lanka has many places with religious and historic significance. 
