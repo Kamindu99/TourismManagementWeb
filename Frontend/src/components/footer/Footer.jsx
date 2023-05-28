@@ -41,6 +41,7 @@ const Footer = () => {
             <li className="fListItem">Terms & conditions</li>
           </ul>
         </div>
+        <center className="ffter">Created by Kamindu Gayantha</center>
       </div>
     </>
   );
