@@ -16,20 +16,23 @@ const Navbar = () => {
         })
     }, [])
 
-    let isHome = window.location.href.slice(21, ) === "/" ? true : false;
-    let isHotel = window.location.href.slice(21, ) === "/hotel-home" ? true : false;
-    let isEvent = window.location.href.slice(21, ) === "/eventhome" ? true : false;
-    let isFlights = window.location.href.slice(21, ) === "/flights" ? true : false;
-    let isTransport = window.location.href.slice(21, ) === "/transport" ? true : false;
-    let isResturent = window.location.href.slice(21, ) === "/resturents" ? true : false;
+    const str = window.location.href;
+
+    const isEvent = str.includes("/eventhome");
+    const isResturent = str.includes("/resturents");
+    const isFlights = str.includes("/flights");
+    const isTransport = str.includes("/transport");
+    const isHotel = str.includes("/hotel-home");
+
+    let isHome = window.location.href === "https://travelwithkaminu.netlify.app/" || window.location.href.slice(21, ) === "/" ? true : false;
 
     return (
         <nav className={`navbar navbar-expand-lg navbar-light ${isSticky ? "stickynav" : "normalnav"}`} expand="lg">
 
             <div className="container-fluid">
                 <div className="navbar-heading">
-                    <h3>
-                        <Link className="navbar-h" to="/">Travel Me</Link>
+                    <h3 style={{marginLeft:'30px'}}>
+                        <Link className="navbar-h" to="/">Travel Life</Link>
                     </h3>
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
