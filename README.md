@@ -1,6 +1,6 @@
 # Tourism Management Web Application
 
-### [Live Site](https://travelwithkaminu.netlify.app/)
+### [Live Site](https://travelwithkamidu.netlify.app/)
 
 ![Voice Controlled React News Application](https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg)
 
