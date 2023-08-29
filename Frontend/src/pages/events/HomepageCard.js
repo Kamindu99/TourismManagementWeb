@@ -25,7 +25,7 @@ export default function HomepageCard() {
         {
             itemname: 'ENTERTAINMENT EVENTS',
             itemDesc: 'With this, you can get Transport, accommodation and event tickets as a package to participate in famous sports events around the world.',
-            itemImage: 'https://www.hire4event.com/artistimage/artistphoto/15798814310Book%20singer%20Armaan%20Malik.jpg',
+            itemImage: 'https://www.kaiserslauternamerican.com/wp-content/uploads/2015/04/photo18b1.jpg',
             itemlink: '/enterpackag'
         },
         {
