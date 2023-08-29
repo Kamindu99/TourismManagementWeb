@@ -38,6 +38,34 @@ function FlightsHome() {
             "description": "One way Trip | 2023-04-14",
             "image": "https://c.fareportal.com/gcms/portals/2/images/destinations/GEO-r2x.jpg",
             "price": 600
+        },
+        {
+            "id": 5,
+            "name": "Bangkok",
+            "description": "One way Trip | 2023-04-14",
+            "image": "https://c.fareportal.com/gcms/portals/2/images/destinations/BKK-r2x.jpg",
+            "price": 200
+        },
+        {
+            "id": 6,
+            "name": "India",
+            "description": "One way Trip | 2023-04-14",
+            "image": "https://c.fareportal.com/gcms/portals/2/images/destinations/MNL-r2x.jpg",
+            "price": 100
+        },
+        {
+            "id": 7,
+            "name": "America",
+            "description": "One way Trip | 2023-04-14",
+            "image": "https://c.fareportal.com/gcms/portals/2/images/destinations/AKL-r2x.jpg",
+            "price": 400
+        },
+        {
+            "id": 8,
+            "name": "South Africa",
+            "description": "One way Trip | 2023-04-14",
+            "image": "https://c.fareportal.com/gcms/portals/2/images/destinations/GEO-r2x.jpg",
+            "price": 600
         }
     ])
     return (
@@ -47,8 +75,8 @@ function FlightsHome() {
 
 
             <>
-            <br/><br/><br/>
-            <Appointment></Appointment>
+                <br /><br /><br />
+                <Appointment></Appointment>
 
 
                 <Row xs={1} md={2} className="g-4" style={{ marginInlineStart: '5%', marginInlineEnd: '5%', marginBottom: '50px' }}>
@@ -120,9 +148,9 @@ function FlightsHome() {
             <div style={{ marginInlineStart: '8%' }}>
                 <h4 className='mb-4'> Sample Deals from Colombo*</h4>
                 <div className='mb-4'>
-                    <Button variant="secondary" className='me-3 active' style={{width:'150px'}}>All</Button>
-                    <Button variant="light" className='me-3 active'style={{width:'150px'}}>One Way</Button>
-                    <Button variant="light"  className='me-3 active'style={{width:'150px'}}>Round Trip</Button>
+                    <Button variant="secondary" className='me-3 active' style={{ width: '150px' }}>All</Button>
+                    <Button variant="light" className='me-3 active' style={{ width: '150px' }}>One Way</Button>
+                    <Button variant="light" className='me-3 active' style={{ width: '150px' }}>Round Trip</Button>
                 </div>
 
             </div>
